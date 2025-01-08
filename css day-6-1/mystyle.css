@@ -1,0 +1,57 @@
+.maincontainer {
+    width: 1000px;
+    height: 580px;
+    border: 4px solid black;
+    background-color:wheat;
+}
+
+.container {
+    display: flex;
+    position: relative;
+
+
+}
+
+.item {
+    width: 250px;
+    height: 265px;
+    border: 4px solid orangered;
+    margin: 10px;
+    position: relative;
+
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+p {
+    font-size: 25px;
+    color: orangered;
+    position: absolute;
+    top: 100px;
+    left: 80px;
+    /* translate:(-50%, -50%); */
+/* / color: transparent; */
+opacity: 0;
+
+}
+
+.item:hover {
+    background-color: aqua;
+
+    transition-duration: 0.5 ease;
+
+}
+
+.item:hover img {
+    opacity: 0;
+
+}
+.item:hover p {
+    opacity: 1;
+
+}
