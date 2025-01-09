@@ -1,0 +1,43 @@
+.maincontainer{
+    /* border:2px solid black; */
+    height: 800px;
+    width: 800px;
+    padding: 0px;
+    
+    
+    
+}
+.container{
+   
+    display: flex;
+}
+
+.item{
+    height: 96px;
+    width: 96px;
+    border: 2px solid black;
+    margin: 0px;
+    font-size: 60px;
+}
+.container:nth-child(odd)  .item:nth-child(odd){
+    background-color:brown;
+    color: whitesmoke;
+}
+.container:nth-child(even)  .item:nth-child(even){
+     background-color:brown;
+    color:black;
+}
+
+
+.item:hover{
+    background-color:yellow;
+    transition-duration: 0.4s esae;
+    
+}
+/* .item:nth-child(even):link {
+    background-color: black;
+}
+  */
+
+
+
