@@ -1,0 +1,148 @@
+
+.container-1{
+    background-color: orange;
+    width: 250px;
+    height: 50px;
+    border: 2px solid black;
+    /* position: relative; */
+}
+
+.container-2{
+    background-color:whitesmoke;
+    width: 250px;
+    height: 50px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+}
+.container-3{
+    background-color:green;
+    width: 250px;
+    height: 50px;
+    border: 2px solid black;
+    position: relative;
+}
+.circle{
+     width: 50px;
+     height: 50px;
+     border: 2px solid blue;
+     border-radius: 50%;
+     position: absolute;
+}
+
+.ashok-1{
+
+    height: 1px;
+    width: 50px;
+    background-color: blue;
+    transform: rotate(180deg);
+    position: absolute;
+    top: 25px;
+}
+.ashok-2{
+
+    height: 1px;
+    width: 50px;
+    background-color: blue;
+    transform: rotate(30deg);
+    position: absolute;
+    top: 25px;
+}.ashok-3{
+
+    height: 1px;
+    width: 50px;
+    background-color: blue;
+    transform: rotate(60deg);
+    position: absolute;
+    top: 25px;
+}
+.ashok-4{
+
+    height: 1px;
+    width: 50px;
+    background-color: blue;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 25px;
+}
+.ashok-5{
+
+    height: 1px;
+    width: 50px;
+    background-color: blue;
+    transform: rotate(120deg);
+    position: absolute;
+    top: 25px;
+}
+.ashok-6{
+
+    height: 1px;
+    width: 50px;
+    background-color: blue;
+    transform: rotate(150deg);
+    position: absolute;
+    top: 25px;
+}
+.ashok-7{
+
+    height: 1px;
+    width: 50px;
+    background-color: blue;
+    transform: rotate(210deg);
+    position: absolute;
+    top: 25px;
+}
+.ashok-8{
+
+    height: 1px;
+    width: 50px;
+    background-color: blue;
+    transform: rotate(240deg);
+    position: absolute;
+    top: 25px;
+}
+.ashok-9{
+
+    height: 1px;
+    width: 50px;
+    background-color: blue;
+    transform: rotate(270deg);
+    position: absolute;
+    top: 25px;
+}
+.ashok-10{
+
+    height: 1px;
+    width: 50px;
+    background-color: blue;
+    transform: rotate(300deg);
+    position: absolute;
+    top: 25px;
+}
+.ashok-11{
+
+    height: 1px;
+    width: 50px;
+    background-color: blue;
+    transform: rotate(330deg);
+    position: absolute;
+    top: 25px;
+}
+.ashok-12{
+
+    height: 1px;
+    width: 50px;
+    background-color: blue;
+    transform: rotate(360deg);
+    position: absolute;
+    top: 25px;
+}
+.pole{
+    height: 500px;
+    width: 10px;
+    background-color: brown;
+position: absolute;
+left: 386px;
+}
